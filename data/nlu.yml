@@ -1,0 +1,131 @@
+version: '3.1'
+
+nlu:
+- intent: xin_chao
+  examples: |
+    - hi
+    - hello
+    - xin chào
+    - có đó không
+    - chào em
+    - hi em
+    - hello em
+    - em ơi
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cưng ơi
+    - chào bạn nha
+    - hey
+    - hú
+    - merci
+    - alo
+
+- intent: tam_biet
+  examples: |
+    - goodbye
+    - tạm biệt
+    - see you
+    - see u
+    - bye
+    - tạm biệt em
+    - gặp lại sau
+    - tạm biệt bot nhá
+    - thôi nha
+    - gặp lại
+    - lúc khác
+    - cút
+    - biến
+    - phắn
+
+- intent: xac_nhan
+  examples: |
+    - yes
+    - đúng rồi
+    - là vậy
+    - chính xác
+    - that right
+    - ừa
+    - ok
+    - okie
+    - ukie
+    - correct
+    - y
+    - làm đi
+    - ừ
+    - vâng
+
+- intent: tu_choi
+  examples: |
+    - n
+    - no
+    - deny
+    - nope
+    - không
+    - éo
+    - đéo
+    - méo
+    - cancel
+    - hok
+    - cancel
+    - hủy
+
+- intent: kha_nang
+  examples: |
+    - bạn có thể làm được những gì
+    - bạn giúp được gì nào
+    - chức năng của bạn là gì
+    - menu
+    - bạn có thể làm được mấy chức năng
+    - bạn giúp được mình gì nào
+    - kể cho mình biết những việc bạn có thể làm được nhé
+    - em giúp được gì
+    - em làm được gì
+    - mày biết làm gì
+    - em biết làm gì
+    - func
+    - chức năng
+    - danh sách chức năng
+    - làm được gì
+    - biết gì mà nói
+    - giúp giúp cái gì
+    - có làm được trò gì 
+    - bạn hữu dụng như thế nào
+
+- intent: cam_on
+  examples: |
+    - cám ơn
+    - thank
+    - thank you
+    - xia xia
+    - cảm ơn em nhá
+    - thanks em nha 
+    - good job
+    - gút chóp
+    - great! Thanks
+    - cảm ơn nhiều
+
+- intent: che_bai
+  examples: |
+    - cùi bắp
+    - dỡ rồi
+    - ngu
+    - ngu ngốc
+    - quá tệ
+    - chả biết gì cả
+    - kém cỏi
+    - ngu thật
+    - ngốc
+    - gà
+
+- intent: bot_challenge
+  examples: |
+    - mày là bot hả
+    - có phải bot khộng?
+    - bot đúng không?
+
+- intent: nhau_khong
+  examples: |
+    - nhậu không?
+    - lai rai không?
+    - làm vài ve
+    - nhậu mày

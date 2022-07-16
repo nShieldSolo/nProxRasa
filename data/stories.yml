@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: xin_chao
+  - action: utter_xin_chao
+  - intent: kha_nang
+  - action: utter_kha_nang
+  - intent: xac_nhan
+  - action: utter_xac_nhan
+  - intent: tu_choi
+  - action: utter_tu_choi
+  - intent: cam_on
+  - action: utter_cam_on
+  - intent: che_bai
+  - action: utter_che_bai
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+  - intent: nhau_khong
+  - action: utter_nhau_khong
+  - intent: tam_biet
+  - action: utter_tam_biet

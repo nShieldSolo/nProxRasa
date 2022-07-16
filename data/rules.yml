@@ -1,0 +1,48 @@
+version: '3.1'
+
+rules:
+
+- rule: Case xin_chao
+  steps:
+  - intent: xin_chao
+  - action: utter_xin_chao
+
+- rule: Case tam_biet
+  steps:
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- rule: Case xac_nhan
+  steps:
+  - intent: xac_nhan
+  - action: utter_xac_nhan
+
+- rule: Case tu_choi
+  steps:
+  - intent: tu_choi
+  - action: utter_tu_choi
+
+- rule: Case kha_nang
+  steps:
+  - intent: kha_nang
+  - action: utter_kha_nang
+
+- rule: Case cam_on
+  steps:
+  - intent: cam_on
+  - action: utter_cam_on
+
+- rule: Case che_bai
+  steps:
+  - intent: che_bai
+  - action: utter_che_bai
+
+- rule: Case bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- rule: Case nhau_khong
+  steps:
+  - intent: nhau_khong
+  - action: utter_nhau_khong
